@@ -10,4 +10,6 @@ O desafio consiste em fazer um site por dia durante 30 dias. Para cada dia é da
 
 - [Portfolio](https://lieechan.github.io/30days30sites/01%20-%20portfolio/): Deveria ser um portfolio pessoal, porém fiz um portfolio para o personagem Shikamaru Nara, do anime Naruto.
 
-- [Event/Invitation](https://lieechan.github.io/30days30sites/02-event/): Página de inscrição para a Copa Mundial de Quadribol, de Harry Potter
+- [Event/Invitation](https://lieechan.github.io/30days30sites/02-event/): Página de inscrição para a Copa Mundial de Quadribol, de Harry Potter.
+
+- [Tourist Atraction](https://lieechan.github.io/30days30sites/03%20-%20tourist-atraction/): Página para a atração turistica Deadman Wonderland Prison, do anime Deadman Wonderland.
