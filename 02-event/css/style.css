@@ -1,0 +1,114 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bree Serif', serif;
+}
+h1.section-title{
+    font-size: 45px;
+}
+.section-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+.container,.delegations-container{
+    margin: 0 auto;
+    max-width: 1100px;    
+}
+.presentation{
+    height: 150%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: url('../img/bg-presentation.jpg') #6579c0 no-repeat ;
+    background-size: cover;
+    background-position: center;
+    font-size: 18px;
+}
+.logo{
+    max-width: 100%;
+}
+.cta-subscribe{
+    width: 50%;
+    color: #fff;
+    background:#5e851d;
+    border:0;
+    padding: 15px;
+    font-weight: 400;
+    font-family: 'Bree Serif', serif;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.cta-subscribe a{
+    color: #fff;
+    text-decoration: none;
+}
+.about-cup{
+    display: flex;
+    align-items: center;
+}
+.delegations{
+    background: #5e851d;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.delegations h2{
+    color: #fff;
+}
+.delegations-container{
+    display: grid;
+}
+.delegation-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+}
+.delegation-title{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.subscribe-form {
+    margin-top: 35px;
+}
+.subscribe-form input{
+    width: 300px;;
+    height: 30px;
+    border:1px solid #aaa;
+    margin-bottom: 20px;
+}
+@media (min-width:400px){
+    .container {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .delegations-container{
+        box-sizing: border-box;
+        padding: 20px;
+        grid-template-columns: 2fr 2fr;
+    }
+    .cta-subscribe{
+        width: 50%;
+    }
+}
+@media (min-width:700px){
+    .about-cup{
+        display: flex;
+        align-items: center;
+    }
+    .delegations-container{
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+    }
+    .subscribe-form input{
+        width: 500px;;
+        height: 30px;
+    }
+}
