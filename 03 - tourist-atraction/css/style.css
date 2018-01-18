@@ -1,0 +1,78 @@
+body{
+    line-height: 21px;
+    background: #f8f8f8;
+    font-family: 'Yantramanav', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.card{
+    max-width: 500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.card-header{
+    background: url('../img/prison-3.jpg') #a13332;
+    padding: 25px;
+    color:#e6e6e6;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+}
+.atraction-title{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 30px;
+    font-weight: normal;
+}
+.atraction-rating{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    margin: 0 0 -10px 26px;
+}
+.rating-star{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+.fa-star{
+    color:#f7ce2a;
+    text-shadow: 0 3px 0 #a13332;
+}
+.atraction-note{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 25%;
+    border: 6px solid #a13332;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    margin: 0 26px -29px 0;
+}
+.atraction-note p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 23px;
+    color: #a13332;
+}
+.card-header,.card-body p{
+    text-align: justify;
+}
+.card-body{
+    padding: 25px;
+    background: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 1px 5px #e6e6e6;
+}
+@media (min-width:400px){
+    .atraction-title{
+        letter-spacing: 10px;
+    }
+}
